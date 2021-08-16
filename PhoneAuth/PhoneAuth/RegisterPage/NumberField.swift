@@ -33,8 +33,8 @@ struct NumberField: View {
     }
 }
 
-//struct NumberField_Previews: PreviewProvider {
-//    static var previews: some View {
-//        NumberField()
-//    }
-//}
+struct NumberField_Previews: PreviewProvider {
+    static var previews: some View {
+        NumberField(text: .constant("123345"))
+    }
+}

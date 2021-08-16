@@ -23,7 +23,7 @@
 		84CB5C8726C819D30057B01A /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8626C819D30057B01A /* NumberField.swift */; };
 		84CB5C8A26C81DB40057B01A /* InsertCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8926C81DB40057B01A /* InsertCodeTextField.swift */; };
 		84CB5C8C26C81DF30057B01A /* VerifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8B26C81DF30057B01A /* VerifyButton.swift */; };
-		84CB5C8E26C81E1E0057B01A /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8D26C81E1E0057B01A /* ErrorAlert.swift */; };
+		84CB5C8E26C81E1E0057B01A /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8D26C81E1E0057B01A /* CancelButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,7 @@
 		84CB5C8626C819D30057B01A /* NumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberField.swift; sourceTree = "<group>"; };
 		84CB5C8926C81DB40057B01A /* InsertCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCodeTextField.swift; sourceTree = "<group>"; };
 		84CB5C8B26C81DF30057B01A /* VerifyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyButton.swift; sourceTree = "<group>"; };
-		84CB5C8D26C81E1E0057B01A /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		84CB5C8D26C81E1E0057B01A /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,8 @@
 				84CB5C7C26C7F3160057B01A /* PhoneAuth.entitlements */,
 				84CB5C5F26C7EE250057B01A /* PhoneAuthApp.swift */,
 				84CB5C6126C7EE250057B01A /* ContentView.swift */,
+				84CB5C7026C7EEB70057B01A /* ConfirmPage.swift */,
+				84CB5C6E26C7EE8A0057B01A /* RegisterPage.swift */,
 				84CB5C7F26C808A30057B01A /* RegisterPage */,
 				84CB5C8826C81D920057B01A /* ConfirmPage */,
 				84CB5C7226C7EEE50057B01A /* TimerCounter.swift */,
@@ -105,7 +107,6 @@
 		84CB5C7F26C808A30057B01A /* RegisterPage */ = {
 			isa = PBXGroup;
 			children = (
-				84CB5C6E26C7EE8A0057B01A /* RegisterPage.swift */,
 				84CB5C8026C808BE0057B01A /* PhoneNummerTextField.swift */,
 				84CB5C8426C8186B0057B01A /* Link.swift */,
 				84CB5C8626C819D30057B01A /* NumberField.swift */,
@@ -116,10 +117,9 @@
 		84CB5C8826C81D920057B01A /* ConfirmPage */ = {
 			isa = PBXGroup;
 			children = (
-				84CB5C7026C7EEB70057B01A /* ConfirmPage.swift */,
 				84CB5C8926C81DB40057B01A /* InsertCodeTextField.swift */,
 				84CB5C8B26C81DF30057B01A /* VerifyButton.swift */,
-				84CB5C8D26C81E1E0057B01A /* ErrorAlert.swift */,
+				84CB5C8D26C81E1E0057B01A /* CancelButton.swift */,
 			);
 			path = ConfirmPage;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CB5C7326C7EEE50057B01A /* TimerCounter.swift in Sources */,
-				84CB5C8E26C81E1E0057B01A /* ErrorAlert.swift in Sources */,
+				84CB5C8E26C81E1E0057B01A /* CancelButton.swift in Sources */,
 				84CB5C8A26C81DB40057B01A /* InsertCodeTextField.swift in Sources */,
 				84CB5C6226C7EE250057B01A /* ContentView.swift in Sources */,
 				84CB5C6026C7EE250057B01A /* PhoneAuthApp.swift in Sources */,

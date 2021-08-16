@@ -27,11 +27,13 @@ struct VerifyButton: View {
                 }
                 UserDefaults.standard.set(true, forKey: "status")
                 
-                NotificationCenter.default.post(name: NSNotification.Name("statusChange"), object: nil)
+                NotificationCenter.default.post(name: NSNotification.Name("statusChange"),
+                                                object: nil)
             }
         }) {
             
-            Text("Verify").frame(width: UIScreen.main.bounds.width - 30,height: 50)
+            Text("Verify").frame(width: UIScreen.main.bounds.width - 30,
+                                 height: 50)
             
         }.foregroundColor(.white)
         .background(Color.orange)
@@ -42,8 +44,8 @@ struct VerifyButton: View {
     }
 }
 
-//struct VerifyButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        VerifyButton()
-//    }
-//}
+struct VerifyButton_Previews: PreviewProvider {
+    static var previews: some View {
+        VerifyButton(code: .constant(""), ID: .constant("ID"), message: .constant(""), alert: .constant(false))
+    }
+}

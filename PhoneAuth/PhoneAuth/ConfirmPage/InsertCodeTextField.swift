@@ -17,8 +17,10 @@ struct InsertCodeTextField: View {
             .background(Color("Color"))
             .overlay(RoundedRectangle(cornerRadius: 10,
                                       style: .continuous)
-                        .stroke(Color.gray, lineWidth: 4))
-            .shadow(color: .gray.opacity(0.3), radius: 10)
+                        .stroke(Color.gray,
+                                lineWidth: 4))
+            .shadow(color: .gray.opacity(0.3),
+                    radius: 10)
             .padding(.top, 15)
     }
 }

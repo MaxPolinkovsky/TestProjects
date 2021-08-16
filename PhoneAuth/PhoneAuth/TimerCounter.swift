@@ -8,9 +8,9 @@
 import SwiftUI
 import Combine
 
-final class TimerCounter: ObservableObject { //протокол позволяющий наблюдать за объектом, Combine
+final class TimerCounter: ObservableObject {
     
-    let objectWillChange = PassthroughSubject<TimerCounter, Never>() // передача объекта подписчикам, TimerCounter  - наблюдаемый объект, Never - всегда передаются изменения объекта его подписчикам с момента создания
+    let objectWillChange = PassthroughSubject<TimerCounter, Never>()
     var counter = 60
     var timer: Timer?
 
@@ -18,12 +18,12 @@ final class TimerCounter: ObservableObject { //протокол позволяю
         if counter > 0 {
             timer = Timer.scheduledTimer(
                 timeInterval: 1,
-                target: self, //действие обработки
+                target: self,
                 selector: #selector(updateCounter),
                 userInfo: nil,
                 repeats: true)
         }
-        objectWillChange.send(self) //посылает сам себя подписчику
+        objectWillChange.send(self) 
     }
     
     @objc private func updateCounter() {
