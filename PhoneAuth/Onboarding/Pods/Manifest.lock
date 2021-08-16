@@ -1,0 +1,16 @@
+PODS:
+  - AdvancedPageControl (0.9.0)
+
+DEPENDENCIES:
+  - AdvancedPageControl
+
+SPEC REPOS:
+  trunk:
+    - AdvancedPageControl
+
+SPEC CHECKSUMS:
+  AdvancedPageControl: 39e3b32b00b2d324c534f8e17cc6c5be9abe84b7
+
+PODFILE CHECKSUM: 9667da3c9994718759bed82e90041d14af129685
+
+COCOAPODS: 1.10.1

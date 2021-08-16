@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CB5C6026C7EE250057B01A /* PhoneAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C5F26C7EE250057B01A /* PhoneAuthApp.swift */; };
+		84CB5C6226C7EE250057B01A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C6126C7EE250057B01A /* ContentView.swift */; };
+		84CB5C6426C7EE290057B01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CB5C6326C7EE290057B01A /* Assets.xcassets */; };
+		84CB5C6726C7EE290057B01A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CB5C6626C7EE290057B01A /* Preview Assets.xcassets */; };
+		84CB5C6F26C7EE8A0057B01A /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C6E26C7EE8A0057B01A /* RegisterPage.swift */; };
+		84CB5C7126C7EEB70057B01A /* ConfirmPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C7026C7EEB70057B01A /* ConfirmPage.swift */; };
+		84CB5C7326C7EEE50057B01A /* TimerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C7226C7EEE50057B01A /* TimerCounter.swift */; };
+		84CB5C7526C7EF1D0057B01A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C7426C7EF1D0057B01A /* Home.swift */; };
+		84CB5C7826C7F1410057B01A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 84CB5C7726C7F1410057B01A /* FirebaseAuth */; };
+		84CB5C7B26C7F1AE0057B01A /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 84CB5C7A26C7F1AE0057B01A /* iPhoneNumberField */; };
+		84CB5C7E26C7F4AD0057B01A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84CB5C7D26C7F4AD0057B01A /* GoogleService-Info.plist */; };
+		84CB5C8126C808BE0057B01A /* PhoneNummerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8026C808BE0057B01A /* PhoneNummerTextField.swift */; };
+		84CB5C8526C8186B0057B01A /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8426C8186B0057B01A /* Link.swift */; };
+		84CB5C8726C819D30057B01A /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8626C819D30057B01A /* NumberField.swift */; };
+		84CB5C8A26C81DB40057B01A /* InsertCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8926C81DB40057B01A /* InsertCodeTextField.swift */; };
+		84CB5C8C26C81DF30057B01A /* VerifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8B26C81DF30057B01A /* VerifyButton.swift */; };
+		84CB5C8E26C81E1E0057B01A /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5C8D26C81E1E0057B01A /* ErrorAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84CB5C5C26C7EE250057B01A /* PhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB5C5F26C7EE250057B01A /* PhoneAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthApp.swift; sourceTree = "<group>"; };
+		84CB5C6126C7EE250057B01A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84CB5C6326C7EE290057B01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CB5C6626C7EE290057B01A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84CB5C6826C7EE290057B01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CB5C6E26C7EE8A0057B01A /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		84CB5C7026C7EEB70057B01A /* ConfirmPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPage.swift; sourceTree = "<group>"; };
+		84CB5C7226C7EEE50057B01A /* TimerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCounter.swift; sourceTree = "<group>"; };
+		84CB5C7426C7EF1D0057B01A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		84CB5C7C26C7F3160057B01A /* PhoneAuth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhoneAuth.entitlements; sourceTree = "<group>"; };
+		84CB5C7D26C7F4AD0057B01A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84CB5C8026C808BE0057B01A /* PhoneNummerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNummerTextField.swift; sourceTree = "<group>"; };
+		84CB5C8426C8186B0057B01A /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		84CB5C8626C819D30057B01A /* NumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberField.swift; sourceTree = "<group>"; };
+		84CB5C8926C81DB40057B01A /* InsertCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCodeTextField.swift; sourceTree = "<group>"; };
+		84CB5C8B26C81DF30057B01A /* VerifyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyButton.swift; sourceTree = "<group>"; };
+		84CB5C8D26C81E1E0057B01A /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CB5C5926C7EE250057B01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB5C7826C7F1410057B01A /* FirebaseAuth in Frameworks */,
+				84CB5C7B26C7F1AE0057B01A /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CB5C5326C7EE250057B01A = {
+			isa = PBXGroup;
+			children = (
+				84CB5C5E26C7EE250057B01A /* PhoneAuth */,
+				84CB5C5D26C7EE250057B01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CB5C5D26C7EE250057B01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CB5C5C26C7EE250057B01A /* PhoneAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CB5C5E26C7EE250057B01A /* PhoneAuth */ = {
+			isa = PBXGroup;
+			children = (
+				84CB5C7C26C7F3160057B01A /* PhoneAuth.entitlements */,
+				84CB5C5F26C7EE250057B01A /* PhoneAuthApp.swift */,
+				84CB5C6126C7EE250057B01A /* ContentView.swift */,
+				84CB5C7F26C808A30057B01A /* RegisterPage */,
+				84CB5C8826C81D920057B01A /* ConfirmPage */,
+				84CB5C7226C7EEE50057B01A /* TimerCounter.swift */,
+				84CB5C7426C7EF1D0057B01A /* Home.swift */,
+				84CB5C6326C7EE290057B01A /* Assets.xcassets */,
+				84CB5C7D26C7F4AD0057B01A /* GoogleService-Info.plist */,
+				84CB5C6826C7EE290057B01A /* Info.plist */,
+				84CB5C6526C7EE290057B01A /* Preview Content */,
+			);
+			path = PhoneAuth;
+			sourceTree = "<group>";
+		};
+		84CB5C6526C7EE290057B01A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84CB5C6626C7EE290057B01A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84CB5C7F26C808A30057B01A /* RegisterPage */ = {
+			isa = PBXGroup;
+			children = (
+				84CB5C6E26C7EE8A0057B01A /* RegisterPage.swift */,
+				84CB5C8026C808BE0057B01A /* PhoneNummerTextField.swift */,
+				84CB5C8426C8186B0057B01A /* Link.swift */,
+				84CB5C8626C819D30057B01A /* NumberField.swift */,
+			);
+			path = RegisterPage;
+			sourceTree = "<group>";
+		};
+		84CB5C8826C81D920057B01A /* ConfirmPage */ = {
+			isa = PBXGroup;
+			children = (
+				84CB5C7026C7EEB70057B01A /* ConfirmPage.swift */,
+				84CB5C8926C81DB40057B01A /* InsertCodeTextField.swift */,
+				84CB5C8B26C81DF30057B01A /* VerifyButton.swift */,
+				84CB5C8D26C81E1E0057B01A /* ErrorAlert.swift */,
+			);
+			path = ConfirmPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CB5C5B26C7EE250057B01A /* PhoneAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CB5C6B26C7EE290057B01A /* Build configuration list for PBXNativeTarget "PhoneAuth" */;
+			buildPhases = (
+				84CB5C5826C7EE250057B01A /* Sources */,
+				84CB5C5926C7EE250057B01A /* Frameworks */,
+				84CB5C5A26C7EE250057B01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAuth;
+			packageProductDependencies = (
+				84CB5C7726C7F1410057B01A /* FirebaseAuth */,
+				84CB5C7A26C7F1AE0057B01A /* iPhoneNumberField */,
+			);
+			productName = PhoneAuth;
+			productReference = 84CB5C5C26C7EE250057B01A /* PhoneAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CB5C5426C7EE250057B01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					84CB5C5B26C7EE250057B01A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 84CB5C5726C7EE250057B01A /* Build configuration list for PBXProject "PhoneAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CB5C5326C7EE250057B01A;
+			packageReferences = (
+				84CB5C7626C7F1410057B01A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				84CB5C7926C7F1AE0057B01A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = 84CB5C5D26C7EE250057B01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CB5C5B26C7EE250057B01A /* PhoneAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CB5C5A26C7EE250057B01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB5C6726C7EE290057B01A /* Preview Assets.xcassets in Resources */,
+				84CB5C6426C7EE290057B01A /* Assets.xcassets in Resources */,
+				84CB5C7E26C7F4AD0057B01A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CB5C5826C7EE250057B01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB5C7326C7EEE50057B01A /* TimerCounter.swift in Sources */,
+				84CB5C8E26C81E1E0057B01A /* ErrorAlert.swift in Sources */,
+				84CB5C8A26C81DB40057B01A /* InsertCodeTextField.swift in Sources */,
+				84CB5C6226C7EE250057B01A /* ContentView.swift in Sources */,
+				84CB5C6026C7EE250057B01A /* PhoneAuthApp.swift in Sources */,
+				84CB5C8526C8186B0057B01A /* Link.swift in Sources */,
+				84CB5C7126C7EEB70057B01A /* ConfirmPage.swift in Sources */,
+				84CB5C7526C7EF1D0057B01A /* Home.swift in Sources */,
+				84CB5C8126C808BE0057B01A /* PhoneNummerTextField.swift in Sources */,
+				84CB5C8C26C81DF30057B01A /* VerifyButton.swift in Sources */,
+				84CB5C6F26C7EE8A0057B01A /* RegisterPage.swift in Sources */,
+				84CB5C8726C819D30057B01A /* NumberField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84CB5C6926C7EE290057B01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84CB5C6A26C7EE290057B01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CB5C6C26C7EE290057B01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneAuth/PhoneAuth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S4TT7686N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mahus.PhoneAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CB5C6D26C7EE290057B01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneAuth/PhoneAuth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S4TT7686N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.mahus.PhoneAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CB5C5726C7EE250057B01A /* Build configuration list for PBXProject "PhoneAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB5C6926C7EE290057B01A /* Debug */,
+				84CB5C6A26C7EE290057B01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CB5C6B26C7EE290057B01A /* Build configuration list for PBXNativeTarget "PhoneAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB5C6C26C7EE290057B01A /* Debug */,
+				84CB5C6D26C7EE290057B01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84CB5C7626C7F1410057B01A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+		84CB5C7926C7F1AE0057B01A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84CB5C7726C7F1410057B01A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CB5C7626C7F1410057B01A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		84CB5C7A26C7F1AE0057B01A /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84CB5C7926C7F1AE0057B01A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84CB5C5426C7EE250057B01A /* Project object */;
+}
